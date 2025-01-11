@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,63 +9,72 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="cv-container">
-        <!-- Left Column -->
-        <div class="left-column">
-            <img id="profimage" src="/images/profile.jpg" alt="Profile Picture">
-            <h1>Parsa Rohani</h1>
-            <p>Game Developer & Full-Stack Developer</p>
-    
-            <div class="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>Unity</li>
-                    <li>C# Programming</li>
-                    <li>Full-Stack Development</li>
-                    <li>Postman</li>
-                </ul>
+    <div class="container mx-0">
+        <!-- Responsive Row -->
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-lg-4 col-md-5 col-12 left-column text-center">
+                <img id="profimage" src="/images/profile.jpg" alt="Profile Picture">
+                <h1>Parsa Rohani</h1>
+                <p>Game Developer & Full-Stack Developer</p>
+
+                <div class="skills text-start">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Unity</li>
+                        <li>C# Programming</li>
+                        <li>Full-Stack Development</li>
+                        <li>Postman</li>
+                    </ul>
+                </div>
+
+                <div class="contact text-start">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:parsa.rohani82@gmail.com">Email: parsa.rohani82@gmail.com</a></li>
+                        <li><a href="tel:+989195712105">Phone: +989195712105</a></li>
+                        <li><img id="qr-code" src="/images/qr-code.png" alt="my contact"></li>
+                    </ul>
+                </div>
             </div>
-    
-            <div class="contact">
-                <h3>Contact</h3>
-                <ul>
-                    <li><a href="mailto:parsa.rohani82@gmail.com">Email: parsa.rohani82@gmail.com</a></li>
-                    <li><a href="tel:+989195712105">Phone: +989195712105</a></li>
-                    <li><img id="qr-code" src="/images/qr-code.png" alt="my contact"></li>
-                </ul>
-            </div>
-        </div>
-    
-        <!-- Right Column -->
-        <div class="right-column">
-            <div class="section">
-                <h2>About Me</h2>
-                <p>Highly motivated learner with a passion for creating games and learning new technologies. Currently focused on Unity and full-stack development.</p>
-            </div>
-    
-            <div class="section">
-                <h2>Experience</h2>
-                <h3>Full-Stack Developer - Radin Tlm</h3>
-                <p>Developed and maintained web applications with a focus on performance and user experience.</p>
-            </div>
-    
-            <div class="section">
-                <h2>Education</h2>
-                <ul>
-                    <li>Bachelor of Computer Engineering, Islamic Azad University (2021-2025)</li>
-                    <li>C# Programmer Certificate, SoloLearn</li>
-                </ul>
+
+            <!-- Right Column -->
+            <div class="col-lg-8 col-md-7 col-12 right-column">
+                <div class="section">
+                    <h2>About Me</h2>
+                    <p>Highly motivated learner with a passion for creating games and learning new technologies. Currently
+                        focused on Unity and full-stack development.</p>
+                </div>
+
+                <div class="section">
+                    <h2>Experience</h2>
+                    <h3>Full-Stack Developer - Radin Tlm</h3>
+                    <p>Developed and maintained web applications with a focus on performance and user experience.</p>
+                </div>
+
+                <div class="section">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Bachelor of Computer Engineering, Islamic Azad University (2021-2025)</li>
+                        <li>C# Programmer Certificate, SoloLearn</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    
-    <footer>
+
+    <footer class="text-center bg-dark text-white py-3">
         &copy; 2024 Parsa Rohani. All Rights Reserved.
     </footer>
 
-    <script src="main.js"></script>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
