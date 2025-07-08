@@ -109,6 +109,7 @@ body {
 .right-column a {
     color: #1abc9c;
     text-decoration: none;
+    width: fit-content;
 }
 
 .right-column a:hover {
