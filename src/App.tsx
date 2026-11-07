@@ -224,7 +224,7 @@ function App() {
           }}
         >
           <div className="profile-avatar">
-            <img src="/profile.png" alt="Parsa Rohani" />
+            <img src="/profile.webp" alt="Parsa Rohani" />
           </div>
           <span>PARSA ROHANI</span>
         </a>
