@@ -165,7 +165,7 @@ function App() {
       <div className="ambient ambient-two" />
       <header className="topbar">
         <a className="brand" href="#home" onClick={(e) => { e.preventDefault(); scrollTo('home') }}>
-          <span className="brand-mark">P<span>.</span></span>
+          <img src="profile.jpg" alt="profile" />
           <span>PARSA ROHANI</span>
         </a>
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'}>
