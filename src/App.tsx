@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import {
-  ArrowDown, ArrowUpRight, Github, Linkedin, Mail, Menu, X,
+  ArrowDown, ArrowUpRight, Github, Mail, Menu, X,
   Code2, Database, Layers3, Server, Terminal, Globe2, ExternalLink,
-  Download, Sparkles, Cpu, Workflow
+ Sparkles, Cpu, Workflow
 } from 'lucide-react'
 
 type Lang = 'en' | 'fa'
@@ -241,7 +241,7 @@ function App() {
           <div className="section-heading"><p className="eyebrow">{t.projectsTag}</p><span className="section-index mono">03 — 06</span></div>
           <div className="section-title-row"><h2>{t.projectsTitle}</h2><p>{t.projectsSub}</p></div>
           <div className="projects-list">
-            {projects.map((project, i) => <motion.article className="project-row" key={project.number} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            {projects.map((project) => <motion.article className="project-row" key={project.number} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
               <div className="project-number mono">{project.number}</div>
               <div className="project-main">
                 <div className="project-title-line"><h3>{project.name}</h3>{project.ongoing && <span className="project-state">{t.inProgress}</span>}</div>
